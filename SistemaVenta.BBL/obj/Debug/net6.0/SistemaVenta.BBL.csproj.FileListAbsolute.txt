@@ -1,0 +1,17 @@
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\bin\Debug\net6.0\SistemaVenta.BBL.deps.json
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\bin\Debug\net6.0\SistemaVenta.BBL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\bin\Debug\net6.0\SistemaVenta.BBL.pdb
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.csproj.AssemblyReference.cache
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.AssemblyInfoInputs.cache
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.AssemblyInfo.cs
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\refint\SistemaVenta.BBL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.pdb
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\ref\SistemaVenta.BBL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\bin\Debug\net6.0\SistemaVenta.DAL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\bin\Debug\net6.0\SistemaVenta.Entity.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\bin\Debug\net6.0\SistemaVenta.DAL.pdb
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\bin\Debug\net6.0\SistemaVenta.Entity.pdb
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.BBL\obj\Debug\net6.0\SistemaVenta.BBL.csproj.CopyComplete

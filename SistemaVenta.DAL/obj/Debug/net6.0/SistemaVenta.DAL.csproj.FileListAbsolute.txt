@@ -1,0 +1,15 @@
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\bin\Debug\net6.0\SistemaVenta.DAL.deps.json
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\bin\Debug\net6.0\SistemaVenta.DAL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\bin\Debug\net6.0\SistemaVenta.DAL.pdb
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.AssemblyInfoInputs.cache
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.AssemblyInfo.cs
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\refint\SistemaVenta.DAL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.pdb
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\ref\SistemaVenta.DAL.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\bin\Debug\net6.0\SistemaVenta.Entity.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\bin\Debug\net6.0\SistemaVenta.Entity.pdb
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.DAL\obj\Debug\net6.0\SistemaVenta.DAL.csproj.CopyComplete

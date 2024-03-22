@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SistemaVenta.AplicacionWeb
+build_property.RootNamespace = SistemaVenta.AplicacionWeb
+build_property.ProjectDir = C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Home/Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJmaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Negocio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Plantilla/EnviarClave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRpbGxhXEVudmlhckNsYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Plantilla/RestablecerClave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRpbGxhXFJlc3RhYmxlY2VyQ2xhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/ReporteVenta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVZlbnRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Venta/HistorialVenta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcSGlzdG9yaWFsVmVudGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Venta/NuevaVenta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcTnVldmFWZW50YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Equipo/Desktop/Jpcortez/.NET/SolucionSistemaDeVenta/SistemaVenta.AplicacionWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5kcff6hc1b
