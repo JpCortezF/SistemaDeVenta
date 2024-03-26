@@ -1,1 +1,2 @@
-# SistemaDeVenta-ASP.NET
+<h1>Descripción del Proyecto</h1>
+<p>Este proyecto es una aplicación web desarrollada localmente que utiliza ASP.NET para el backend y FireBase para almacenar datos de usuarios. La comunicación entre FireBase y SQL Server se utiliza para gestionar la información de los usuarios. La aplicación permite agregar nuevos usuarios mediante FireBase y luego muestra una lista de usuarios en una tabla mediante consultas a la base de datos SQL Server. Además, incluye funcionalidades como el envío de correos electrónicos a los usuarios utilizando una plantilla HTML personalizada.</p>
