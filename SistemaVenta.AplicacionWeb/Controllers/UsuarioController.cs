@@ -57,7 +57,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
                 if (foto != null)
                 {
-                    string nombreEnCodigo = Guid.NewGuid().ToString("N");
+                    string nombreEnCodigo = Guid.NewGuid().ToString("N");  // Numeros y letras
                     string extension = Path.GetExtension(foto.FileName);
                     nombreFoto = string.Concat(nombreEnCodigo, extension);
                     fotoStream = foto.OpenReadStream();
