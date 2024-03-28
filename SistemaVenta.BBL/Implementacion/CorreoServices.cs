@@ -49,7 +49,7 @@ namespace SistemaVenta.BBL.Implementacion
                     UseDefaultCredentials = false,
                     EnableSsl = true
                 };
-
+                
                 clienteServidor.Send(correo);
                 return true;
             }

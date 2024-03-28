@@ -135,12 +135,13 @@ $("#btnGuardar").click(function () {
             method: "POST",
             body: formData
         })
-        .then(response => {
-            $("#modalData").find("div.modal-content").LoadingOverlay("hide");
-            return response.ok ? response.json() : Promise.reject(response);
-        })
+            .then(response => {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+                return response.ok ? response.json() : Promise.reject(response);
+            })
             .then(responseJson => {
                 if (responseJson.estado) { // propiedad de gResponse en el Controller 
+
                     tablaData.row.add(responseJson.objeto).draw(false)
                     $("#modalData").modal("hide")
                     swal("Listo!", "El usuario fue creado", "success")
@@ -148,5 +149,41 @@ $("#btnGuardar").click(function () {
                     swal("Lo sentimos", responseJson.mensaje, "error")
                 }
             })
+    } else {
+        fetch("Usuario/Editar", {
+            method: "PUT",
+            body: formData
+        })
+        .then(response => {
+            $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+            return response.ok ? response.json() : Promise.reject(response);
+        })
+        .then(responseJson => {
+            if (responseJson.estado) { // propiedad de gResponse en el Controller 
+
+                tablaData.row(filaSeleccionada).data(responseJson.objeto).draw(false)
+                filaSeleccionada = null;
+                $("#modalData").modal("hide")
+                swal("Listo!", "El usuario fue editado", "success")
+            } else {
+                swal("Lo sentimos", responseJson.mensaje, "error")
+            }
+        })
     }
 })
+
+let filaSeleccionada;
+$("#tbdata tbody").on("click", ".btn-editar", function () {
+
+    // Para el funcionamiento del tr responsivo
+    if ($(this).closest("tr").hasClass("child")) {
+        filaSeleccionada = $(this).closest("tr").prev();
+    } else {
+        filaSeleccionada = $(this).closest("tr");
+    }
+
+    const data = tablaData.row(filaSeleccionada).data();
+
+    mostrarModal(data);
+})
+

@@ -120,12 +120,14 @@ namespace SistemaVenta.BBL.Implementacion
                     IQueryable<Usuario> queryUsuario = await _repository.Consultar(u => u.IdUsuario == entidad.IdUsuario);
 
                     Usuario editarUsuario = queryUsuario.First();
+
                     editarUsuario.NombreFoto = entidad.NombreFoto;
                     editarUsuario.Correo = entidad.Correo;
                     editarUsuario.Telefono = entidad.Telefono;
                     editarUsuario.IdRol = entidad.IdRol;
+                    editarUsuario.EsActivo = entidad.EsActivo;
 
-                    if (editarUsuario.NombreFoto == "")
+                    if (editarUsuario.NombreFoto != "")
                     {
                         editarUsuario.NombreFoto = NombreFoto;
                     }

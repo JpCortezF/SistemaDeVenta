@@ -100,7 +100,6 @@ namespace SistemaVenta.AplicacionWeb.Controllers
                 }
 
                 Usuario usuarioEditado = await _usuarioServices.Editar(_mapper.Map<Usuario>(vmUsuario), fotoStream, nombreFoto);
-
                 vmUsuario = _mapper.Map<VmUsuario>(usuarioEditado);
 
                 gResponse.Estado = true;
