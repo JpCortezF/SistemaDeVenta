@@ -104,7 +104,7 @@ $("#btnGuardar").click(function () {
     const inputs = $("input.input-validar").serializeArray();
     console.log(inputs); // Muestra todos los inputs serializados en la consola
 
-    const inputsSinValor = inputs.filter((item) => item.value.trim() == "");
+    const inputsSinValor = inputs.filter((item) => item.value.trim() == ""); // devuelve el input sin valor
 
     if (inputsSinValor.length > 0) {
         const mensaje = `Debe completar el campo: "${inputsSinValor[0].name}"`
@@ -154,21 +154,21 @@ $("#btnGuardar").click(function () {
             method: "PUT",
             body: formData
         })
-        .then(response => {
-            $("#modalData").find("div.modal-content").LoadingOverlay("hide");
-            return response.ok ? response.json() : Promise.reject(response);
-        })
-        .then(responseJson => {
-            if (responseJson.estado) { // propiedad de gResponse en el Controller 
+            .then(response => {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+                return response.ok ? response.json() : Promise.reject(response);
+            })
+            .then(responseJson => {
+                if (responseJson.estado) { // propiedad de gResponse en el Controller 
 
-                tablaData.row(filaSeleccionada).data(responseJson.objeto).draw(false)
-                filaSeleccionada = null;
-                $("#modalData").modal("hide")
-                swal("Listo!", "El usuario fue editado", "success")
-            } else {
-                swal("Lo sentimos", responseJson.mensaje, "error")
-            }
-        })
+                    tablaData.row(filaSeleccionada).data(responseJson.objeto).draw(false)
+                    filaSeleccionada = null;
+                    $("#modalData").modal("hide")
+                    swal("Listo!", "El usuario fue editado", "success")
+                } else {
+                    swal("Lo sentimos", responseJson.mensaje, "error")
+                }
+            })
     }
 })
 
@@ -215,20 +215,20 @@ $("#tbdata tbody").on("click", ".btn-eliminar", function () {
                 fetch(`/Usuario/Eliminar?IdUsuario=${data.idUsuario}`, {
                     method: "DELETE"
                 })
-                .then(response => {
-                    $(".showSweetAlert").LoadingOverlay("hide");
-                    return response.ok ? response.json() : Promise.reject(response);
-                })
-                .then(responseJson => {
-                    if (responseJson.estado) { // propiedad de gResponse en el Controller 
+                    .then(response => {
+                        $(".showSweetAlert").LoadingOverlay("hide");
+                        return response.ok ? response.json() : Promise.reject(response);
+                    })
+                    .then(responseJson => {
+                        if (responseJson.estado) { // propiedad de gResponse en el Controller 
 
-                        tablaData.row(fila).remove().draw()
-                        swal("Listo!", "El usuario fue eliminado", "success")
-                    }
-                    else {
-                        swal("Lo sentimos", responseJson.mensaje, "error")
-                    }
-                })
+                            tablaData.row(fila).remove().draw()
+                            swal("Listo!", "El usuario fue eliminado", "success")
+                        }
+                        else {
+                            swal("Lo sentimos", responseJson.mensaje, "error")
+                        }
+                    })
             }
         }
     )

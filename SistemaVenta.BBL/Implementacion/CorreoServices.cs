@@ -35,7 +35,7 @@ namespace SistemaVenta.BBL.Implementacion
                     From = new MailAddress(Config["correo"], Config["alias"]),
                     Subject = asunto,
                     Body = mensaje,
-                    IsBodyHtml = true
+                    IsBodyHtml = false
                 };
 
                 correo.To.Add(new MailAddress(CorreoDestino));
