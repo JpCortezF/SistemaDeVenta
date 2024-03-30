@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uLs1DBHa/Hr+AMvw8mqfrWntCncUJ/OzFcrktH6MbUw=",
+  "Hash": "qqHNPKIexW4Hpfy2Mws0tsdtswviTmEjStfODfgRd0A=",
   "Source": "SistemaVenta.AplicacionWeb",
   "BasePath": "_content/SistemaVenta.AplicacionWeb",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vistas\\Negocio_index.js"
+    },
+    {
+      "Identity": "C:\\Users\\Equipo\\Desktop\\Jpcortez\\.NET\\SolucionSistemaDeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Producto_index.js",
+      "SourceId": "SistemaVenta.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Equipo\\Desktop\\Jpcortez\\.NET\\SolucionSistemaDeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVenta.AplicacionWeb",
+      "RelativePath": "js/vistas/Producto_index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vistas\\Producto_index.js"
     },
     {
       "Identity": "C:\\Users\\Equipo\\Desktop\\Jpcortez\\.NET\\SolucionSistemaDeVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
