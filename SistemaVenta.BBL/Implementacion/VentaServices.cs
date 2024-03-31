@@ -64,7 +64,7 @@ namespace SistemaVenta.BBL.Implementacion
                 .ToList();
             }
             else
-            {
+            {   // Filtro para buscar por el numero de venta
                 return query.Where(v => v.NumeroVenta == numeroDeVenta)
                 .Include(tdv => tdv.IdTipoDocumentoVentaNavigation)
                 .Include(u => u.IdUsuarioNavigation)
