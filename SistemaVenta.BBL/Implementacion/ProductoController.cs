@@ -61,7 +61,7 @@ namespace SistemaVenta.BBL.Implementacion
             }
         }
 
-        public async Task<Producto> Editar(Producto entidad, Stream imagen = null)
+        public async Task<Producto> Editar(Producto entidad, Stream imagen = null, string nombreImagen = "")
         {
             // Comprobamos que el codigo de barra no se repita en nuestra base de datos.
             Producto productoExiste = await _repository.Obtener(p => p.CodigoBarra == entidad.CodigoBarra && p.IdProducto != entidad.IdProducto);
@@ -82,6 +82,11 @@ namespace SistemaVenta.BBL.Implementacion
                 editarProducto.Precio = entidad.Precio;
                 editarProducto.Stock = entidad.Stock;
                 editarProducto.EsActivo = entidad.EsActivo;
+
+                if(editarProducto.NombreImagen == "")
+                {
+                    editarProducto.NombreImagen = nombreImagen;
+                }
 
                 if(imagen != null)
                 {

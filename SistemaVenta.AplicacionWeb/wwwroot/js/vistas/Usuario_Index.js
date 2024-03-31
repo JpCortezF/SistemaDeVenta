@@ -26,7 +26,6 @@ $(document).ready(function () {
             }
         })
 
-
     tablaData = $('#tbdata').DataTable({  // se convierte #tbdata a DataTable
         responsive: true,
         "ajax": {            // ajax devuelve toda la data el usuario
@@ -86,7 +85,7 @@ function mostrarModal(modelo = MODELO_BASE)
     $("#txtNombre").val(modelo.nombre)
     $("#txtCorreo").val(modelo.correo)
     $("#txtTelefono").val(modelo.telefono)
-    $("#cboRol").val(modelo.idRol == 0 ? $("cboRol option:first").val() : modelo.idRol)
+    $("#cboRol").val(modelo.idRol == 0 ? $("#cboRol option:first").val() : modelo.idRol)
     $("#cboEstado").val(modelo.esActivo)
     $("#txtFoto").val("")
     $("#imgUsuario").attr("src", modelo.urlFoto)
@@ -102,7 +101,6 @@ $("#btnGuardar").click(function () {
     /*debugger;*/
 
     const inputs = $("input.input-validar").serializeArray();
-    console.log(inputs); // Muestra todos los inputs serializados en la consola
 
     const inputsSinValor = inputs.filter((item) => item.value.trim() == ""); // devuelve el input sin valor
 
@@ -212,7 +210,7 @@ $("#tbdata tbody").on("click", ".btn-eliminar", function () {
             if (respuesta) {
                 $(".showSweetAlert").LoadingOverlay("show");
 
-                fetch(`/Usuario/Eliminar?IdUsuario=${data.idUsuario}`, {
+                fetch(`/Usuario/Eliminar?idUsuario=${data.idUsuario}`, {
                     method: "DELETE"
                 })
                     .then(response => {
