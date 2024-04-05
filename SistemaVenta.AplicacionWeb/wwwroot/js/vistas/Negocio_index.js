@@ -9,7 +9,6 @@
         })
         .then(responseJson => {
 
-            console.log(responseJson)
             if (responseJson.estado) {
                 const objeto = responseJson.objeto
 

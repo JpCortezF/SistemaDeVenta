@@ -13,12 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaVenta.IOC", "Sistema
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaVenta.AplicacionWeb", "SistemaVenta.AplicacionWeb\SistemaVenta.AplicacionWeb.csproj", "{691528A6-27DE-45D0-A35E-8C7DC33000E6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bases de Datos", "Bases de Datos", "{A8DF12EF-7797-420F-9838-97DE7016058E}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\001_BaseDatos_Tablas.sql = ..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\001_BaseDatos_Tablas.sql
-		..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\002_Inserts.sql = ..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\002_Inserts.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
