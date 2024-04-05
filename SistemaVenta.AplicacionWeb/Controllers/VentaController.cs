@@ -50,7 +50,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
             try
             {
-                modelo.IdUsuario = 1;
+                modelo.IdUsuario = 4;
 
                 Venta venta = await _ventaServices.Registrar(_mapper.Map<Venta>(modelo)); // De VmVenta a Venta
                 modelo = _mapper.Map<VmVenta>(venta); // De Venta a VmVenta
@@ -61,7 +61,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
             catch (Exception ex)
             {
                 gResponse.Estado = false;
-                gResponse.Mensaje = ex.Message;
+                gResponse.Mensaje = "Ocurrió un error al registrar la venta: " + ex.Message;
                 throw;
             }
             return StatusCode(StatusCodes.Status200OK, gResponse);
@@ -70,7 +70,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
         [HttpGet]
         public async Task<IActionResult> Historial(string numeroVenta, string fechaInicio, string fechaFin)
         {
-            List<VmVenta> vmHistorialVenta = _mapper.Map<List<VmVenta>>(await _ventaServices.HistorialVenta(numeroVenta, fechaInicio, fechaFin));
+            List<VmVenta> vmHistorialVenta = _mapper.Map<List<VmVenta>>(await _ventaServices.Historial(numeroVenta, fechaInicio, fechaFin));
             return StatusCode(StatusCodes.Status200OK, vmHistorialVenta);
         }
     }

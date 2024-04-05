@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.Entity", "SistemaVenta.Entity\SistemaVenta.Entity.csproj", "{9BAB47C9-3A60-4553-B964-7FDC3DF707A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaVenta.Entity", "SistemaVenta.Entity\SistemaVenta.Entity.csproj", "{9BAB47C9-3A60-4553-B964-7FDC3DF707A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.DAL", "SistemaVenta.DAL\SistemaVenta.DAL.csproj", "{216D3A4B-36D2-4090-BE3A-3CE30C60820E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaVenta.DAL", "SistemaVenta.DAL\SistemaVenta.DAL.csproj", "{216D3A4B-36D2-4090-BE3A-3CE30C60820E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.BBL", "SistemaVenta.BBL\SistemaVenta.BBL.csproj", "{A2BF8B52-E48D-4B3F-A1E9-B99410009E59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaVenta.BBL", "SistemaVenta.BBL\SistemaVenta.BBL.csproj", "{A2BF8B52-E48D-4B3F-A1E9-B99410009E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.IOC", "SistemaVenta.IOC\SistemaVenta.IOC.csproj", "{7A2EA44F-031E-462F-B337-24855DA8E26B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaVenta.IOC", "SistemaVenta.IOC\SistemaVenta.IOC.csproj", "{7A2EA44F-031E-462F-B337-24855DA8E26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.AplicacionWeb", "SistemaVenta.AplicacionWeb\SistemaVenta.AplicacionWeb.csproj", "{691528A6-27DE-45D0-A35E-8C7DC33000E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaVenta.AplicacionWeb", "SistemaVenta.AplicacionWeb\SistemaVenta.AplicacionWeb.csproj", "{691528A6-27DE-45D0-A35E-8C7DC33000E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bases de Datos", "Bases de Datos", "{A8DF12EF-7797-420F-9838-97DE7016058E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\001_BaseDatos_Tablas.sql = ..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\001_BaseDatos_Tablas.sql
+		..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\002_Inserts.sql = ..\..\..\Programming\Notas .NET\Material del Curso\Base Datos\002_Inserts.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

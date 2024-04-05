@@ -43,7 +43,7 @@ namespace SistemaVenta.BBL.Implementacion
             }
         }
 
-        public async Task<List<Venta>> HistorialVenta(string numeroDeVenta, string fechaInicio, string fechaFin)
+        public async Task<List<Venta>> Historial(string numeroDeVenta, string fechaInicio, string fechaFin)
         {
             IQueryable<Venta> query = await _ventaRepository.Consultar();
             fechaInicio = fechaInicio is null ? "" : fechaInicio;
@@ -74,7 +74,7 @@ namespace SistemaVenta.BBL.Implementacion
             
         }
 
-        public async Task<Venta> DetalleVenta(string numeroVenta)
+        public async Task<Venta> Detalle(string numeroVenta)
         {
             IQueryable<Venta> query = await _ventaRepository.Consultar(v => v.NumeroVenta == numeroVenta);
 
@@ -85,7 +85,7 @@ namespace SistemaVenta.BBL.Implementacion
             .First();
         }
 
-        public async Task<List<DetalleVenta>> ReporteVenta(string fechaInicio, string fechaFin)
+        public async Task<List<DetalleVenta>> Reporte(string fechaInicio, string fechaFin)
         {
             DateTime fecha_inicio = DateTime.ParseExact(fechaInicio, "dd/MM/yyyy", new CultureInfo("es-AR"));
             DateTime fecha_fin = DateTime.ParseExact(fechaFin, "dd/MM/yyyy", new CultureInfo("es-AR"));

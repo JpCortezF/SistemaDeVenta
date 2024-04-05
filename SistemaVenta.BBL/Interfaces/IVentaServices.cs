@@ -11,8 +11,8 @@ namespace SistemaVenta.BBL.Interfaces
     {
         Task<List<Producto>> ObtenerProductos(string busqueda);
         Task<Venta> Registrar(Venta entidad);
-        Task<List<Venta>> HistorialVenta(string numeroDeVenta, string fechaInicio, string fechaFin);
-        Task<Venta> DetalleVenta(string numeroVenta);
-        Task<List<DetalleVenta>> ReporteVenta(string fechaInicio, string fechaFin);
+        Task<List<Venta>> Historial(string numeroDeVenta, string fechaInicio, string fechaFin);
+        Task<Venta> Detalle(string numeroVenta);
+        Task<List<DetalleVenta>> Reporte(string fechaInicio, string fechaFin);
     }
 }
