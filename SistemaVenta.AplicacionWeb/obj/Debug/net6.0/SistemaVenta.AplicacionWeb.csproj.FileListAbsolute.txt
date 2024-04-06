@@ -255,3 +255,7 @@ C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.Aplica
 C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Firebase.Auth.dll
 C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Firebase.Storage.dll
 C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.dll
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.dylib
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.so
+C:\Users\Equipo\Desktop\Jpcortez\.NET\SolucionSistemaDeVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\DinkToPdf.dll
