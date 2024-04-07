@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Net;
 using SistemaVenta.Entity;
 using SistemaVenta.DAL.Interfaces;
+using Microsoft.Extensions.Logging;
 
 namespace SistemaVenta.BBL.Implementacion
 {
@@ -18,13 +19,13 @@ namespace SistemaVenta.BBL.Implementacion
         private readonly IUtilidadesServices _utilidadesServices;
         private readonly ICorreoServices _correoServices;
 
+
         public UsuarioServices(IGenericRepository<Usuario> repository, IFireBaseServices fireBaseServices, IUtilidadesServices utilidadesServices, ICorreoServices correoServices)
         {
             _repository = repository;
             _fireBaseServices = fireBaseServices;
             _utilidadesServices = utilidadesServices;
             _correoServices = correoServices;
-
         }
         public async Task<List<Usuario>> Lista()
         {
@@ -62,7 +63,6 @@ namespace SistemaVenta.BBL.Implementacion
                         UrlPlantillaCorreo = UrlPlantillaCorreo.Replace("[correo]", nuevoUsuario.Correo).Replace("[clave]", generarClave);
 
                         string htmlCorreo = "";
-
                         HttpWebRequest request = (HttpWebRequest)WebRequest.Create(UrlPlantillaCorreo);
                         HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
