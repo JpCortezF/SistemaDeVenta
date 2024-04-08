@@ -113,7 +113,7 @@ namespace SistemaVenta.BBL.Implementacion
                     .Include(v => v.IdVentaNavigation)
                     .Where(dv => dv.IdVentaNavigation.FechaRegistro.Value.Date >= fechaInicio.Date)
                     .GroupBy(dv => dv.DescripcionProducto).OrderByDescending(g => g.Count()) // Se ordena del producto más vendido al menos vendido
-                    .Select(dv => new { producto = dv.Key, total = dv.Count() })  // con Select creamos un objeto con fecha y total
+                    .Select(dv => new { producto = dv.Key, total = dv.Count() }).Take(4)  // con Select creamos un objeto con producto y cantidad
                     .ToDictionary(keySelector: r => r.producto, elementSelector: r => r.total); // a las propiedades keySelector y elementSelector se le asignan los valores
 
                 return resultado;
