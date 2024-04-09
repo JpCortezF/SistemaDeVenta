@@ -30,7 +30,14 @@ namespace SistemaVenta.AplicacionWeb.Controllers
             return View();
         }
 
-        [HttpPost]
+        public IActionResult RestablecerClave()
+        {
+
+
+            return View();
+        }
+
+       [HttpPost]
         public async Task<IActionResult> Login(VmUsuarioLogin modelo)
         {
             Usuario usuarioEncontrado = await _usuarioServices.ObtenerPorCredenciales(modelo.Correo, modelo.Clave);
@@ -61,6 +68,34 @@ namespace SistemaVenta.AplicacionWeb.Controllers
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), properties);
 
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RestablecerClave(VmUsuarioLogin modelo)
+        {
+            try
+            {
+                string urlPlantillaCorreo = $"{this.Request.Scheme}://{this.Request.Host}/Plantilla/RestablecerClave?clave=[clave]";
+
+                bool resultado = await _usuarioServices.RestablecerClave(modelo.Correo, urlPlantillaCorreo);
+
+                if(resultado)
+                {
+                    ViewData["Mensaje"] = "Su contraseña fue restablecida. Revise su correo";
+                    ViewData["MensajeError"] = null;
+                }
+                else
+                {
+                    ViewData["Mensaje"] = null;
+                    ViewData["MensajeError"] = "Ocurrio un problema. Por favor intentelo más tarde";
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewData["Mensaje"] = null;
+                ViewData["MensajeError"] = ex.Message;
+            }
+            return View();
         }
     }
 }
