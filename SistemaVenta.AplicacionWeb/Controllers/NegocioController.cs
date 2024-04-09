@@ -6,9 +6,11 @@ using SistemaVenta.BBL.Interfaces;
 using SistemaVenta.Entity;
 using SistemaVenta.AplicacionWeb.Utilidades.Response;
 using System.Runtime.Intrinsics.X86;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaVenta.AplicacionWeb.Controllers
 {
+    [Authorize]
     public class NegocioController : Controller
     {
         private readonly IMapper _mapper;

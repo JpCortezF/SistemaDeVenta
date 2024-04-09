@@ -5,10 +5,11 @@ using SistemaVenta.AplicacionWeb.Models.ViewModels;
 using SistemaVenta.AplicacionWeb.Utilidades.Response;
 using SistemaVenta.BBL.Interfaces;
 using SistemaVenta.Entity;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaVenta.AplicacionWeb.Controllers
 {
+    [Authorize]
     public class UsuarioController : Controller
     {
         private readonly IUsuarioServices _usuarioServices;

@@ -3,6 +3,7 @@ using AutoMapper;
 using SistemaVenta.AplicacionWeb.Models.ViewModels;
 using SistemaVenta.BBL.Interfaces;
 using DinkToPdf.Contracts;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaVenta.AplicacionWeb.Controllers
 {

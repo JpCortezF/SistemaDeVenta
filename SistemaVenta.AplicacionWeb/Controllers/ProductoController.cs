@@ -5,9 +5,11 @@ using SistemaVenta.BBL.Interfaces;
 using SistemaVenta.Entity;
 using SistemaVenta.AplicacionWeb.Utilidades.Response;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaVenta.AplicacionWeb.Controllers
 {
+    [Authorize]
     public class ProductoController : Controller
     {
         private readonly IProductoServices _productoServices;
