@@ -8,6 +8,7 @@ using SistemaVenta.Entity;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace SistemaVenta.AplicacionWeb.Controllers
 {
@@ -58,7 +59,13 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
             try
             {
-                modelo.IdUsuario = 4;
+                ClaimsPrincipal claimUsuario = HttpContext.User;
+
+                string idUsuario = claimUsuario.Claims
+                .Where(c => c.Type == ClaimTypes.NameIdentifier) // almacena el id del usuario
+                .Select(c => c.Value).SingleOrDefault();
+
+                modelo.IdUsuario = int.Parse(idUsuario);
 
                 Venta venta = await _ventaServices.Registrar(_mapper.Map<Venta>(modelo)); // De VmVenta a Venta
                 modelo = _mapper.Map<VmVenta>(venta); // De Venta a VmVenta
