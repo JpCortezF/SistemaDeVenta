@@ -139,7 +139,7 @@ $("#btnGuardar").click(function () {
     $("#modalData").find("div.modal-content").LoadingOverlay("show");
 
     if (modelo.idProducto == 0) {
-        fetch("Producto/Crear", {
+        fetch("/Producto/Crear", {
             method: "POST",
             body: formData
         })
@@ -158,7 +158,7 @@ $("#btnGuardar").click(function () {
                 }
             })
     } else {
-        fetch("Producto/Editar", {
+        fetch("/Producto/Editar", {
             method: "PUT",
             body: formData
         })

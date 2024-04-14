@@ -23,7 +23,7 @@ namespace SistemaVenta.BBL.Implementacion
             _rolMenuRepository = rolMenuRepository;
             _usuarioRepository = usuarioRepository;
         }
-        public async Task<List<Menu>> ObtenerMenus(int idUsuario)
+        public async Task<List<Menu>> ObtenerMenu(int idUsuario)
         {
             IQueryable<Usuario> tablaUsuario = await _usuarioRepository.Consultar(u => u.IdUsuario == idUsuario);
             IQueryable<RolMenu> tablaRolMenu = await _rolMenuRepository.Consultar();

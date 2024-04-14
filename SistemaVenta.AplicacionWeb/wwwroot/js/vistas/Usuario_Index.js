@@ -129,7 +129,7 @@ $("#btnGuardar").click(function () {
     $("#modalData").find("div.modal-content").LoadingOverlay("show");
 
     if (modelo.idUsuario == 0) {
-        fetch("Usuario/Crear", {
+        fetch("/Usuario/Crear", {
             method: "POST",
             body: formData
         })
@@ -148,7 +148,7 @@ $("#btnGuardar").click(function () {
                 }
             })
     } else {
-        fetch("Usuario/Editar", {
+        fetch("/Usuario/Editar", {
             method: "PUT",
             body: formData
         })
